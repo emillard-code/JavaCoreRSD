@@ -9,9 +9,10 @@ public class Main {
 
     }
 
+    // A method that removes all characters that are identical to the previous character in a String.
     static void removeSuccessiveDuplicates(String input) {
 
-        StringBuilder noDuplicates = new StringBuilder("");
+        StringBuilder noDuplicates = new StringBuilder();
 
         noDuplicates.append(input.charAt(0));
 
